@@ -48,7 +48,7 @@ const Post = styled.div`
 export default function Home({data}) {
   return (
     <>
-      <SEO title="Blog" />
+      <SEO title="Samuel Wallan" />
       <HeaderLogo />
       <Layout>
         <Hero>

@@ -9,7 +9,6 @@ description: I have worked for the Marketing and Communications department of th
 ---
 
 
-![logo-cp-dining](CD_logo_grn_sml.png)
 
 ## Overview 
 
@@ -21,5 +20,3 @@ This meant working on their two websites; calpolydining.com and calpolycorporati
 - adding dynamic generation for image galleries
 - sitewide speed improvements (image compression, removing uneeded extra processes.)
 - Airtable configuration for propogation of holiday and non standard hours to the dining website and for easier export to google business.
-
-![gallery](gallery.png)

@@ -3,7 +3,7 @@ title: "Undergraduate Research Assistant"
 company: SciPy Grants
 fromDate: "Fall 2019"
 toDate: "Spring 2021"
-order: 3
+order: 2
 description: As an undergraduate research assistant, I have been contributing to the Scientific Python ("SciPy") since November of 2019 under various research grants. 
 ---
 ![scipy-logo](/scipy-logo-300.png)
@@ -12,7 +12,8 @@ As an undergraduate research assistant, I have been contributing to the Scientif
 
 Most recently, under the grant, "A Solid Foundation for Statistics in Python with SciPy," we have worked to make enhancements in several areas to SciPy's statistical functions. See the full grant proposal [here](https://warrenweckesser.github.io/czi/scipy-2019-czi-proposal-revised.pdf). 
 
-
+As a part of this, I co-authored for the SciPy conference a poster regarding the efficiency of a complex integration. It is available here:
+https://zenodo.org/record/5151976 and is titled "SciPy 2021: An Accurate Implementation of the Studentized Range Distribution for Python."
 
 Most notably, I worked to
 

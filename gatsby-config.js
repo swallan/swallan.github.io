@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix : '/swallan.github.io',
+  pathPrefix : '/',
   siteMetadata: {
     title: `Samuel Wallan`,
     description: `Amazon AWS Intern | Software Engineering Major @ Cal Poly`,
