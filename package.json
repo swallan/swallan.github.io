@@ -4,7 +4,7 @@
   "author": "@lewislbr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/swallan"
+    "url": "https://github.com/lewislbr/lewis-gatsby-starter-blog"
   },
   "version": "0.1.0",
   "license": "MIT",
@@ -14,7 +14,8 @@
     "build": "rm -rf .cache && rm -rf public && gatsby build",
     "serve": "gatsby serve",
     "lint": "eslint --ext .js,.jsx .",
-    "format": "prettier --write --check \"!.cache\" \"!public\" ."
+    "format": "prettier --write --check \"!.cache\" \"!public\" .",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
@@ -33,6 +34,7 @@
     "gatsby-source-filesystem": "^2.7.0",
     "gatsby-transformer-remark": "^2.12.0",
     "gatsby-transformer-sharp": "^2.8.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
