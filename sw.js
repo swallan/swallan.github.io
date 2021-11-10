@@ -27,20 +27,28 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a16b59d59c401a8a2b88.js"
+    "url": "webpack-runtime-640642f324274355efbf.js"
   },
   {
     "url": "framework-4146264157ba7b1cd295.js"
   },
   {
-    "url": "app-e4a085b0bc88a4fe3058.js"
+    "url": "app-20a4b6657fbea0daadd0.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b75f86d9466a6a85747fb6c5ebf22db8"
+    "revision": "43a3b9ed49a40c8fb4f97bcb03199f2e"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-16703ee5599528db9f93.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f6081b83111aea4128c98944b7fafccc"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "31ea1632fea90307faa7a1dc2db986af"
   },
   {
     "url": "polyfill-79b23a2c0dd7adcbe04f.js"
@@ -130,12 +138,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/swallan.github.io`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e4a085b0bc88a4fe3058.js`))) {
+  if (!resources || !(await caches.match(`/swallan.github.io/app-20a4b6657fbea0daadd0.js`))) {
     return await fetch(event.request)
   }
 
@@ -148,7 +156,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/swallan.github.io/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
