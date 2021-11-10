@@ -21,21 +21,21 @@ export function HeaderLogo() {
   return (
     <HeaderWrapper>
       <ButtonLink
-        href="https://github.com/lewislbr/lewis-gatsby-starter-blog"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Resume
-      </ButtonLink>
-      <ButtonLink
-        href="https://mobile.twitter.com/lewislbr"
+        href="https://github.com/swallan"
         target="_blank"
         rel="noopener noreferrer"
       >
         LinkedIn
       </ButtonLink>
       <ButtonLink
-        href="https://github.com/lewislbr/lewis-gatsby-starter-blog"
+        href="https://www.linkedin.com/in/samuelwallan/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACNZogwBgfN1wkSvxERb7hXhS78nx_xunhs,1635474202030)/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </ButtonLink>
+      <ButtonLink
+        href="https://www.linkedin.com/in/samuelwallan/"
         target="_blank"
         rel="noopener noreferrer"
       >
