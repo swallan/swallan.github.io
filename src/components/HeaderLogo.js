@@ -21,7 +21,7 @@ export function HeaderLogo() {
   return (
     <HeaderWrapper>
       <ButtonLink
-        href="https://github.com/swallan"
+        href="https://www.linkedin.com/in/samuelwallan/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -35,7 +35,7 @@ export function HeaderLogo() {
         LinkedIn
       </ButtonLink>
       <ButtonLink
-        href="https://www.linkedin.com/in/samuelwallan/"
+        href="https://github.com/swallan"
         target="_blank"
         rel="noopener noreferrer"
       >
